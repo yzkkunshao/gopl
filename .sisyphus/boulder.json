@@ -1,0 +1,58 @@
+{
+  "active_plan": "/Users/yuzekun/iCloud云盘（归档）/Documents/gopl/.sisyphus/plans/update-claude-md-stdlib.md",
+  "started_at": "2026-06-21T00:10:19.032Z",
+  "session_ids": [
+    "ses_1188a3ab8ffeODzEoHvUb4xOxH",
+    "ses_11878bce1ffezuAe1Q6TLfSi3i",
+    "ses_11878b417ffeSIqflS4Nd9YQj1",
+    "ses_11878aa74ffeyDbY2MIh57xwkz",
+    "ses_118789f78ffeURf8AEPKUSpAgI"
+  ],
+  "session_origins": {
+    "ses_1188a3ab8ffeODzEoHvUb4xOxH": "direct",
+    "ses_11878bce1ffezuAe1Q6TLfSi3i": "appended",
+    "ses_11878b417ffeSIqflS4Nd9YQj1": "appended",
+    "ses_11878aa74ffeyDbY2MIh57xwkz": "appended",
+    "ses_118789f78ffeURf8AEPKUSpAgI": "appended"
+  },
+  "plan_name": "update-claude-md-stdlib",
+  "agent": "atlas",
+  "task_sessions": {
+    "todo:1": {
+      "task_key": "todo:1",
+      "task_label": "1",
+      "task_title": "在 `## Role: Go 编程导师` 之后插入\"学习者画像\"和\"标准库解释规则\"段落",
+      "session_id": "ses_1187bf76effeZ4hBWF0Ol0FHFD",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-06-21T00:11:42.764Z"
+    },
+    "todo:3": {
+      "task_key": "todo:3",
+      "task_label": "3",
+      "task_title": "修改\"提问回答\"规则",
+      "session_id": "ses_1187a86edffeghFMiWr0CF45a2",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-06-21T00:12:46.982Z"
+    },
+    "todo:4": {
+      "task_key": "todo:4",
+      "task_label": "4",
+      "task_title": "在文档末尾追加标准库包速查表",
+      "session_id": "ses_11879ce16ffeDfuj5mrgmJjuun",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-06-21T00:13:44.393Z"
+    },
+    "final-wave:f1": {
+      "task_key": "final-wave:f1",
+      "task_label": "F1",
+      "task_title": "**Plan Compliance Audit** — `oracle`",
+      "session_id": "ses_11875a6f4ffe1ncvcPJ6VnwRDw",
+      "agent": "Sisyphus-Junior",
+      "category": "unspecified-high",
+      "updated_at": "2026-06-21T00:18:38.704Z"
+    }
+  }
+}

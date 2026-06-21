@@ -4,6 +4,7 @@ package tempconv
 import (
 	"flag"
 	"fmt"
+	"strings"
 )
 
 type Celsius float64
@@ -40,6 +41,17 @@ func (f *celsiusFlag) Set(s string) error {
 		return nil
 	}
 	return fmt.Errorf("invalid temperature %q", s)
+}
+
+type StringSlice []string
+
+func (s StringSlice) String() string {
+	return strings.Join(s, ",")
+}
+
+func (s *StringSlice) Set(str string) error {
+	*s = strings.Split(str, ",")
+	return nil
 }
 
 // CelsiusFlag defines a Celsius flag with the specified name,

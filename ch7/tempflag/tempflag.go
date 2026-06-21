@@ -4,6 +4,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"os"
 
 	"github.com/linehk/gopl/ch7/tempconv"
 )
@@ -11,6 +12,7 @@ import (
 var temp = tempconv.CelsiusFlag("temp", 20.0, "the temperature")
 
 func main() {
+	fmt.Printf("%q", os.Args)
 	flag.Parse()
 	fmt.Println(*temp)
 }
